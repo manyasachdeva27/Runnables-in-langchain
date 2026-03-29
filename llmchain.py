@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 #initialize the LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key="AIzaSyAMNx92HnX32TtDp_9yCm76x3L-vY617P4")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key="")
 
 #define the prompt template
 prompt = PromptTemplate(
